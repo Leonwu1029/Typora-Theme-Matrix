@@ -21,7 +21,7 @@ strong {
     padding-bottom: 100px;
     /*background-color:rgb(207,232, 204);*/
     background-color: black;
-    font-family: 仿宋;
+    font-family: 仿宋_GB2312;
     font-size: x-large;
     color: hsl(120deg 50% 50%);
 }
@@ -80,3 +80,9 @@ mark {
 }
 
 /* YAML部分调色+字号调整 */
+pre.md-meta-block {
+    font-size: medium;
+    color: black;
+    font-family: 'monospace';
+    background-color: gainsboro;
+}

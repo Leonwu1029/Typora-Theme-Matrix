@@ -23,3 +23,7 @@
 
 
 CSS也不熟练，都是从网上抄来抄去，🤣
+
+颜色参考的是[简单点！原子化CSS实现黑客帝国代码雨](https://juejin.cn/post/7089039113747333128)，但是根据自己的显示器进行了调整，主要是调低了`SATURATION`的值，这样看起来不至于那么刺眼……
+
+关于CSS HSL 颜色的调整，可以参考[CSS HSL 颜色](https://www.w3school.com.cn/css/css_colors_hsl.asp)
