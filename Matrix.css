@@ -1,0 +1,80 @@
+/* Italics */
+body:not(.default-font-color) em,
+body:not(.default-font-color) span:not(.cm-highlight).cm-em {
+    color: hsl(120deg 50% 50%);
+    font-family: 'kaiti';
+    font-style: italic;
+}
+
+/* strong */
+strong {
+    font-weight: bold;
+    font-family: 黑体;
+}
+
+/*主体*/
+
+#write {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 30px;
+    padding-bottom: 100px;
+    /*background-color:rgb(207,232, 204);*/
+    background-color: black;
+    font-family: 仿宋;
+    font-size: x-large;
+    color: hsl(120deg 50% 50%);
+}
+
+/*分割线*/
+hr {
+    border-top: 1px solid hsl(120deg 50% 50%);
+}
+
+/* 一级标题 */
+h1 {
+    font-family: 方正小标宋简体;
+    text-align: center;
+}
+
+/* 二级标题 */
+h2 {
+    font-family: 黑体;
+    text-align: center;
+}
+
+/* 三级标题 */
+h3 {
+    font-family: 楷体;
+}
+
+/*引用块*/
+blockquote {
+    border-left: 4px solid hsl(120deg 50% 50%);
+    padding: 0 15px;
+}
+
+/*代码*/
+code {
+    background-color: hsl(120deg 50% 50%);
+    padding: 2px 2px 2px 2px;
+    color: white;
+    font-family: monospace;
+}
+
+/*高亮*/
+mark {
+    background: hsl(120deg 50% 50%);
+    color: white;
+}
+
+/**apply to code fences with plan text**/
+.md-fences {
+    background-color: gainsboro;
+    color: hsl(0, 0%, 0%);
+    border: none;
+}
+
+.md-fences .code-tooltip {
+    background-color: #263238;
+}
