@@ -86,3 +86,22 @@ pre.md-meta-block {
     font-family: 'monospace';
     background-color: gainsboro;
 }
+
+/* task */
+/* 参考官方css文档，https: //support.typoraio.cn/Task-List/ */
+.task-list-done {
+    /* styles for completed tasks */
+    text-decoration: line-through;
+    /* color: #777; */
+}
+
+
+/* 无序列表 */
+ul {
+    list-style-type: square;
+}
+
+/* 有序列表 */
+ol {
+    list-style-type: decimal-leading-zero;
+}
